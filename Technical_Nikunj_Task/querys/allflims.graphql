@@ -1,0 +1,17 @@
+
+query Query {
+  allFilms {
+    films {
+      id
+      episodeID
+      title
+      openingCrawl
+      characterConnection {
+        characters {
+          name
+          id
+        }
+      }
+    }
+  }
+}
